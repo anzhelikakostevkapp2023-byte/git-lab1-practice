@@ -1,0 +1,25 @@
+{
+  "name": "git-lab1-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anzhelikakostevkapp2023-byte/git-lab1-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anzhelikakostevkapp2023-byte/git-lab1-practice/issues"
+  },
+  "homepage": "https://github.com/anzhelikakostevkapp2023-byte/git-lab1-practice#readme",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.5",
+    "vitest": "^4.1.5"
+  }
+}
