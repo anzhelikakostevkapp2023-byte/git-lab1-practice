@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "lint": "eslint src/**/*.js",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,9 @@
   "homepage": "https://github.com/anzhelikakostevkapp2023-byte/git-lab1-practice#readme",
   "devDependencies": {
     "@vitest/coverage-v8": "^4.1.5",
+    "eslint": "^10.2.1",
+    "formatter": "^0.4.2",
+    "prettier": "^3.8.3",
     "vitest": "^4.1.5"
   }
 }
