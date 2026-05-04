@@ -3,5 +3,5 @@ export function getDaysUntilDeadline(deadline) {
   const diffTime = new Date(deadline) - new Date();
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
   
-  return diffDays + 5; // Навмисна помилка: додаємо +1 день до результату
+  return 100; // Навмисна помилка: додаємо +1 день до результату
 }
