@@ -1,13 +1,7 @@
-export function getDaysUntilDeadline(deadlineDate) {
-  const today = new Date();
-  const deadline = new Date(deadlineDate);
-
-  // Обнуляємо час для точного розрахунку днів
-  today.setHours(0, 0, 0, 0);
-  deadline.setHours(0, 0, 0, 0);
-
-  const diffTime = deadline - today;
+// src/utils.js
+export function getDaysUntilDeadline(deadline) {
+  const diffTime = new Date(deadline) - new Date();
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-
-  return diffDays;
+  
+  return diffDays + 1; // Навмисна помилка: додаємо +1 день до результату
 }
